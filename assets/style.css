@@ -68,11 +68,16 @@ body {
 	margin: 0 20px;
 	z-index: 0;
 }
-
+/* //sqdnsdnklsaqzkdf */
 .picture img {
 	width: 100%;
-	max-width: 342.667px;
-	height: 342.667px;
+	max-width: 560px;
+	height: 390.9px;
+}
+#contact img {
+	width: 100%;
+	max-width: 338px;
+	height: 454.4px;
 }
 #about-me {
 	flex: 2
@@ -103,6 +108,7 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
+/* fsdfsdfdgsvsdvsd */
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #000;
 	background-color: #fff;
