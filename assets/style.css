@@ -39,7 +39,9 @@ body {
 }
 
 .social-link img {
-	width: 20px;
+	width: 100%;
+	max-width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -69,7 +71,8 @@ body {
 
 .picture img {
 	width: 100%;
-
+	max-width: 342.667px;
+	height: 342.667px;
 }
 #about-me {
 	flex: 2
