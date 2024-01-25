@@ -21,7 +21,10 @@ body {
 .top-header .name {
 	font-size: 26px;
 }
-
+.d-block.w-100 {
+	max-width: 1440px;
+	height: 666px;
+}
 .nav ul {
 	display: flex;
 	list-style-type: none;
