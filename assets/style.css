@@ -22,7 +22,6 @@ body {
 	font-size: 26px;
 }
 .d-block.w-100 {
-	max-width: 1440px;
 	height: 666px;
 }
 .nav ul {
@@ -100,8 +99,11 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
-
-
+/* erfedfsdfsdfsdefg */
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
 .title{
 	text-align: center;
 	padding-block: 2em;
