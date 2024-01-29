@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+	 <!-- ajout language -->
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
@@ -23,7 +24,9 @@
 	
 <body>
 <header>
+	<!-- ajout header  -->
 	<div class="top-header">
+		<!-- modification de h3 à h1 -->
 		<h1 class="name">Nina Carducci</h1>
 		<!-- PASSER DE H3 A UN H1 EN AJOUTANT PHOTOGRAPHIE -->
 		<div class="nav">   
@@ -32,7 +35,8 @@
 				<li><a href="#gallery">Galerie</a></li>
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
-				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Icône Instagram"></a></li>	  
+				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Icône Instagram"></a></li>
+				<!-- ajout alt 	   -->
 			</ul>
 		</div>
 	</div>
@@ -47,14 +51,17 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<!-- Ajout de la description "HOMME D'AFFAIRE" pour l'attribut alt -->
+					<!-- modification niveau poids img en min.webp -->
 					<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-min.webp" class="d-block w-100" alt="HOMME D'AFFAIRE" loading="lazy">
 				</div>
 				<div class="carousel-item">
 					<!-- Ajout de la description "SUPPORTER" pour l'attribut alt -->
+					<!-- modification niveau poids img en min.webp -->
 					<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-min.webp" class="d-block w-100" alt="SUPPORTER" loading="lazy">
 				</div>
 				<div class="carousel-item">
 					<!-- Ajout de la description "MARIAGE" pour l'attribut alt -->
+					<!-- modification niveau poids img en min.webp -->
 					<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-min.webp" class="d-block w-100" alt="MARIAGE" loading="lazy">
 				</div>
 			</div>
@@ -69,14 +76,18 @@
 		</div>
 	</div>
 </header>
-<main>
+<main> 
+	<!-- ajout main  -->
 	<div id="about">
 		<div class="picture left">
 			<img src="./assets/images/nina.jpg" alt="nina">
+			<!-- ajout du remplissage alt  -->
+			<!-- modification en jpg  -->
 		</div>
 		<div id="about-me">
 			<!-- Titre de section mis à jour de H3 à H2 -->
 			<h2 class="about-me__title">A propos de moi</h2>
+			<!-- Titre de section mis à jour de H6 à H3 -->
 			<h3 class="about-me__introduction">Devenir <strong>photographe</strong> était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
 			<!-- Paragraphe principal avec ajout de balises <strong> -->
 			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
@@ -100,6 +111,9 @@
 				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8-unsplash-min-min.webp" alt="Portrait femme" loading="lazy">
 				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-min.webp" alt="Artiste en concert" loading="lazy"/>
 				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-min.webp" alt="Assitante d'entreprise" loading="lazy"/>
+				<!-- ajout de loading="lazy" -->
+				<!-- ajout du remplissage alt  -->
+				<!-- modification niveau poids img en min.webp -->
 			</div>
 		</div>
 	</div>
@@ -164,14 +178,15 @@
 	</div>
 </main>
 <footer id="contact">
+	<!-- ajout footer  -->
     <div class="container">
         <div class="form-container">
             <h2>Une question ? Une demande de devis ?</h2>
             <p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
             <form action="" method="post">
+				<!-- ajout de for apres label  -->
 				<label for="nom">Nom</label>
 				<input type="text" id="nom" name="nom">
-				
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email">
                 <label for="message">Message</label>
@@ -180,8 +195,10 @@
             </form>
         </div>
 		<div class="picture right">
-			<!-- Ajout de l'attribut alt pour une meilleure accessibilité -->
 			<img src="./assets/images/camera.jpg" loading="lazy" alt="Illustration d'une caméra">
+			<!-- ajout de loading="lazy" -->
+			<!-- ajout du remplissage alt  -->
+			<!-- modification en jpg  -->
 		</div>
 		
     </div>
